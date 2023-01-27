@@ -35,7 +35,7 @@ if(!(recentlyMsg == undefined)){
     disabledCommands: ['AUTH']
   })
   
-  server.listen(2525, "0.0.0.0")
+  server.listen(25, "0.0.0.0")
 }catch(error) {
   console.log(error)
 }
