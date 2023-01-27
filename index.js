@@ -3,7 +3,7 @@ const parser = require("mailparser").simpleParser
 const fs = require("fs");
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 3000;
 var mails = JSON.parse(fs.readFileSync('./lib/mails.json'));
 
 try {
